@@ -38,6 +38,18 @@ header {
   color: lawngreen;
 }
 
+/* Trying to get them columns in extras page */
+#ksArticle {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#ksArticle > section {
+  display: flex;
+  flex-basis: 51%;
+  /* flex-direction: row; */
+}
 /* .flex-container {
   display: flex;
   background-color: DodgerBlue;
