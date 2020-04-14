@@ -37,3 +37,16 @@ header {
 .menuItem a:visited {
   color: lawngreen;
 }
+
+/* Trying to get them columns in extras page */
+#ksArticle {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#ksArticle > section {
+  display: flex;
+  flex-basis: 51%;
+  /* flex-direction: row; */
+}
