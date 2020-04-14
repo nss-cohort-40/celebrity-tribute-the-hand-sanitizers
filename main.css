@@ -50,3 +50,17 @@ header {
   flex-basis: 51%;
   /* flex-direction: row; */
 }
+/* .flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+  flex-direction: row;
+  flex-wrap: wrap;
+} */
+
+/* .flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  flex-basis: 45%;
+} */
