@@ -1,0 +1,39 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: row;
+  background-color: lightgrey;
+}
+
+.menuList {
+  background-color: dimgrey;
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-transform: uppercase;
+  /* justify-content: none; */
+  list-style: none;
+  padding: none;
+  margin: 0em;
+}
+.menuItem {
+  color: ivory;
+  padding: 10px;
+  /* opacity:; */
+}
+.menuItem a:link {
+  color: white;
+}
+.menuItem a:active {
+  color: yellow;
+}
+.menuItem a:visited {
+  color: hotpink;
+}
+.menuItem a:visited {
+  color: lawngreen;
+}
