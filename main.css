@@ -213,3 +213,7 @@ a > img {
   display: flex;
   padding: 10px;
 }
+
+.ksList > li > a {
+  text-decoration: none;
+}
