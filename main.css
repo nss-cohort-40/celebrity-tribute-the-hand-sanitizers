@@ -3,11 +3,16 @@ header {
   align-items: center;
   justify-content: start;
   flex-direction: row;
-  background-color: lightgrey;
+  background-image: url("https://img.pixers.pics/pho_wat(s3:700/FO/74/06/47/32/700_FO74064732_5f7fe45b974ff867897b571d5fcb85aa.jpg,525,700,cms:2018/10/5bd1b6b8d04b8_220x50-watermark.png,over,305,650,jpg)/stickers-polarization-pearl-sequins-shiny-glitter-background.jpg.jpg");
+  padding: none;
+  margin: none;
+  color: rgb(8, 8, 8);
+  font-size: larger;
+  font-family: fantasy;
 }
 
 .menuList {
-  background-color: dimgrey;
+  background-image: url("https://ak3.picdn.net/shutterstock/videos/23467423/thumb/1.jpg");
   font-size: large;
   font-family: "Times New Roman", Times, serif;
   align-items: center;
@@ -15,27 +20,61 @@ header {
   flex-direction: row;
   justify-content: center;
   text-transform: uppercase;
-  /* justify-content: none; */
   list-style: none;
   padding: none;
   margin: 0em;
+  border: 2px solid black;
 }
 .menuItem {
-  color: ivory;
+  /* background-color:white;
+  color:black; */
+  justify-content: space-evenly;
+  font-weight: bold;
   padding: 10px;
-  /* opacity:; */
+  /* border: 1px solid black; */
+  
 }
 .menuItem a:link {
-  color: white;
+  color: rgb(235, 226, 226);
+}
+.menuItem a:hover {
+  color: black;
+  background-color: whitesmoke;
 }
 .menuItem a:active {
-  color: yellow;
-}
+  color:yellow;
+} 
 .menuItem a:visited {
-  color: hotpink;
+  color: rgb(46, 60, 189);
 }
-.menuItem a:visited {
-  color: lawngreen;
+ /* Newsfeed CSS */
+.column {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/*Newsfeed CSS*/
+.column p {
+  display: flex;
+  /* flex: 50% 50% 50%; */
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  text-align: justify;
+  margin-left: 12em;
+  margin-right: 12em;
+  font-size: larger;
+  background-color:whitesmoke;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.column h1{
+  font-size: x-large;
+  
 }
 
 /* Trying to get them columns in extras page */
@@ -48,19 +87,17 @@ header {
 #ksArticle > section {
   display: flex;
   flex-basis: 51%;
-  /* flex-direction: row; */
 }
-/* .flex-container {
-  display: flex;
-  background-color: DodgerBlue;
-  flex-direction: row;
-  flex-wrap: wrap;
-} */
 
-/* .flex-container > div {
-  background-color: #f1f1f1;
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
-  flex-basis: 45%;
-} */
+body{
+  background-color: darkgray;
+}
+footer{
+  border: 1px solid black;
+
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+  background-color: whitesmoke;
+
+}
