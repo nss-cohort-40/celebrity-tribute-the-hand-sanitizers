@@ -1,19 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 header {
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: space-between;
   flex-direction: row;
-  background-image: url("https://img.pixers.pics/pho_wat(s3:700/FO/74/06/47/32/700_FO74064732_5f7fe45b974ff867897b571d5fcb85aa.jpg,525,700,cms:2018/10/5bd1b6b8d04b8_220x50-watermark.png,over,305,650,jpg)/stickers-polarization-pearl-sequins-shiny-glitter-background.jpg.jpg");
-  padding: none;
-  margin: none;
-  color: rgb(8, 8, 8);
-  font-size: larger;
-  font-family: fantasy;
+  background-image: url("https://wallpapercave.com/wp/wp2120657.jpg");
+  background-size: contain;
+  padding-right: 20px;
+}
+
+header > h1 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 50px;
+  text-shadow: 2px 2px 5px black;
 }
 
 .menuList {
-  background-image: url("https://ak3.picdn.net/shutterstock/videos/23467423/thumb/1.jpg");
-  font-size: large;
+  font-size: 20px;
   font-family: "Times New Roman", Times, serif;
   align-items: center;
   display: flex;
@@ -23,37 +31,119 @@ header {
   list-style: none;
   padding: none;
   margin: 0em;
-  border: 2px solid black;
 }
+
 .menuItem {
-  /* background-color:white;
-  color:black; */
-  justify-content: space-evenly;
-  font-weight: bold;
+  color: black;
   padding: 10px;
-  /* border: 1px solid black; */
+  /* opacity:; */
 }
 .menuItem a:link {
-  color: rgb(235, 226, 226);
-}
-.menuItem a:hover {
-  color: black;
-  background-color: whitesmoke;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  text-decoration: none;
 }
 .menuItem a:active {
-  color: yellow;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  text-decoration: none;
 }
 .menuItem a:visited {
-  color: rgb(46, 60, 189);
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  text-decoration: none;
 }
-/* Newsfeed CSS */
-.column {
+.menuItem a:visited {
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  text-decoration: none;
+
+  /* Newsfeed CSS */
+
+  .column {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Evan Stuff */
+  .imgFrameJoe {
+    width: 10%;
+  }
+
+  .er-partner-img {
+    height: 175px;
+    width: 175px;
+    align-content: space-between;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .personal-body {
+    background: black;
+  }
+}
+
+.er-article {
+  background: orange;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.er-section {
+  margin: 5px;
+}
+
+.er-section > h1 {
+  color: black;
+  text-shadow: 2px 2px 5px white;
+  font-size: 35px;
+  margin: 5px 5px;
+  padding: 5px;
+  text-decoration: underline;
+}
+
+.er-section > p {
+  margin: 10px;
+  padding: 10px;
+}
+
+.link {
+  background-color: black;
+  color: white;
+  padding: 5px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  border: 1px double white;
+}
+
+/* section > h1 {
+  background: orange;
+  height: 25px; 
+  width: 25%;
+  border-color: black;
+  border-radius: 3px;
+  border-style: outset;
+  border-width: 3px;
+  text-align: center;
+} */
+
+/* .personal-flex-container { 
   display: flex;
+  flex-direction: row ;
   flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+} 
+
+.personal-flex-container > div {
+  margin: 10px;
+  padding: 20px;
+  flex-basis: 50%;
+} */
+
 /*Newsfeed CSS*/
 .column p {
   display: flex;
@@ -90,11 +180,14 @@ header {
 body {
   background-color: darkgray;
 }
-footer {
-  border: 1px solid black;
 
-  display: flex;
-  justify-content: space-evenly;
-  margin: 20px;
-  background-color: whitesmoke;
+/* MAIN FOOTER */
+footer {
+  text-align: center;
+  font-size: 15px;
+  word-spacing: 5px;
+  color: white;
+  background-image: url("https://wallpapercave.com/wp/wp2120657.jpg");
+  background-size: contain;
+  padding-bottom: 20px;
 }
