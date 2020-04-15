@@ -1,4 +1,4 @@
-* {
+body {
   margin: 0;
   padding: 0;
 }
@@ -7,10 +7,11 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-direction: row;
+  flex-direction: row ;
   background-image: url('https://wallpapercave.com/wp/wp2120657.jpg');
   background-size: contain;
   padding-right: 20px;
+  height: 100px;
 }
 
 header > h1 {
@@ -53,13 +54,7 @@ header > h1 {
   color: white;
   text-shadow: 2px 2px 5px black;
   text-decoration: none;
-
 }
-.menuItem a:visited {
-  color: white;
-  text-shadow: 2px 2px 5px black;
-  text-decoration: none;
-
  /* Newsfeed CSS */
 
 .column {
@@ -72,7 +67,9 @@ header > h1 {
 
 /* Evan Stuff */
 .imgFrameJoe {
-  width: 10%;
+  min-width: 100px;
+  height: 100px;
+  max-width: 125px;
 }
 
 .er-partner-img {
@@ -86,7 +83,7 @@ header > h1 {
 .personal-body {
   background: black;
 }
-}
+
 
 .er-article {
   background: orange;
