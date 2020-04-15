@@ -6,6 +6,7 @@ header {
   background-image: url("https://wallpapercave.com/wp/wp2120657.jpg");
   background-size: contain;
   padding-right: 20px;
+  height: 100px;
 }
 
 header > h1 {
@@ -32,7 +33,6 @@ header > h1 {
 .menuItem {
   color: black;
   padding: 10px;
-  /* opacity:; */
 }
 
 /* Unvisited Link */
@@ -63,10 +63,6 @@ header > h1 {
   text-decoration: underline;
 }
 
-/* .menuList .menuItem {
-  color: orange;
-} */
-
 .active {
   text-decoration: underline;
 }
@@ -92,7 +88,8 @@ section > h1 {
   padding-left: 5px;
   padding-top: 5px;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-  width: 260px;
+  flex-wrap: nowrap;
+  flex-direction: row;
 }
 
 /* Newsfeed CSS */
@@ -107,7 +104,9 @@ section > h1 {
 
 /* PERSONAL PAGE */
 .imgFrameJoe {
-  width: 10%;
+  min-width: 100px;
+  height: 100px;
+  max-width: 125px;
 }
 
 .er-partner-img {
@@ -132,6 +131,7 @@ article {
 
 section {
   margin: 5px;
+  flex-wrap: nowrap;
 }
 
 section > p {
@@ -171,6 +171,8 @@ section > p {
 
 .column h1 {
   font-size: x-large;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 /* Trying to get them columns in extras page */
@@ -202,7 +204,17 @@ footer {
   width: 50%;
 }
 
-.tvHeader {
+.presPic {
+  height: 25%;
+  width: 25%;
+}
+
+.govPic {
+  height: 25%;
+  width: 25%;
+}
+
+.tvH1 {
   background-color: rgba(255, 255, 255, 0.5);
   border-right: 5px solid black;
   text-align: right;
@@ -220,28 +232,113 @@ footer {
   width: 260px;
 }
 
-.tvPic {
-  height: 50%;
-  width: 50%;
+.politicsH1 {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-right: 5px solid black;
+  text-align: right;
+  padding-right: 5px;
+  border-left: none;
+  border-radius: 30px 0px 0px 30px;
+  color: black;
+  font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  height: 30px;
+  margin-top: 10px;
+  padding-left: 5px;
+  padding-top: 5px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  width: 260px;
 }
 
+/* Intro Parent */
 .intro {
   display: flex;
-  flex-basis: 10% 30% 60%;
-  align-items: center;
-}
-
-.tv-film {
-  display: flex;
-  /* flex-direction: row-reverse; */
-  align-items: center;
-}
-
-.tv-film .tvHeader {
-  order: 8 0 5;
+  flex-basis: 1fr 1fr 2fr;
+  /* align-items: center; */
 }
 
 .intro > h1 {
   align-self: start;
   justify-self: stretch;
 }
+/* Tv Parent */
+.tv-film {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.tv-film > p {
+  align-items: center;
+}
+
+.tvPic {
+  order: 1;
+  height: 50%;
+  width: 50%;
+}
+
+/* Music Parent */
+.music {
+  display: flex;
+  /* align-items: center; */
+}
+
+.musicPic {
+  order: 5;
+  height: 50%;
+  width: 50%;
+}
+
+/* Politics Parent */
+.politics {
+  display: flex;
+  /* flex-basis: 1fr 1fr 2fr;
+  align-items: center; */
+}
+
+.politics > p {
+  order: 2;
+}
+
+.politicsH1 {
+  order: 5;
+}
+
+/* summary css will have class="sum" somewhere in the class*/
+
+/* .sum-collaborators {
+  display: flex;
+  flex-direction: column;
+} */
+
+.sum-pad {
+  padding: 10px;
+}
+
+.sum-joePhoto {
+  max-width: 100%;
+  height: auto;
+  padding: 8px;
+}
+
+.sum-imgFrameJoe {
+  border: none;
+  margin: 5px;
+  box-shadow: 5px 10px #888888;
+}
+
+.sum-columns {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+
+#collaboratorNames {
+  list-style: none;
+}
+
+#listNames {
+  list-style: none;
+}
+
+/* summary css */
