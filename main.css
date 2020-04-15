@@ -142,7 +142,6 @@ body {
 article {
   background: orange;
   padding: 5px;
-  margin-top: 3px;
 }
 
 section {
@@ -345,7 +344,7 @@ ul .tourDates {
   font-weight: normal;
 }
 
-ul #tourNames {
+ul .tourNames {
   font-weight: bold;
   font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
 }
