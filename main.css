@@ -233,6 +233,10 @@ a > img {
   color: white;
 }
 
+.ksList > li > a:visited {
+  color: white;
+}
+
 .ksList > li {
   padding: 5px 0px 5px 0px;
 }
