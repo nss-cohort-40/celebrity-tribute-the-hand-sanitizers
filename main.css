@@ -57,33 +57,32 @@ header > h1 {
   color: white;
   text-shadow: 2px 2px 5px black;
   text-decoration: none;
+}
+/* Newsfeed CSS */
 
-  /* Newsfeed CSS */
+.column {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
-  .column {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
+/* Evan Stuff */
+.imgFrameJoe {
+  width: 10%;
+}
 
-  /* Evan Stuff */
-  .imgFrameJoe {
-    width: 10%;
-  }
+.er-partner-img {
+  height: 175px;
+  width: 175px;
+  align-content: space-between;
+  padding-right: 10px;
+  padding-left: 10px;
+}
 
-  .er-partner-img {
-    height: 175px;
-    width: 175px;
-    align-content: space-between;
-    padding-right: 10px;
-    padding-left: 10px;
-  }
-
-  .personal-body {
-    background: black;
-  }
+.personal-body {
+  background: black;
 }
 
 .er-article {
@@ -191,3 +190,43 @@ footer {
   background-size: contain;
   padding-bottom: 20px;
 }
+
+/* summary css will have class="sum" somewhere in the class*/
+
+}
+/* .sum-collaborators {
+  display: flex;
+  flex-direction: column;
+} */
+
+.sum-pad {
+  padding: 10px;
+}
+
+.sum-joePhoto {
+  max-width: 100%;
+  height: auto;
+  padding: 8px;
+}
+
+.sum-imgFrameJoe {
+  border: none;
+  margin: 5px;
+  box-shadow: 5px 10px #888888;
+}
+
+.sum-columns {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+
+#collaboratorNames {
+  list-style: none;
+}
+
+#listNames {
+  list-style: none;
+}
+
+/* summary css */
