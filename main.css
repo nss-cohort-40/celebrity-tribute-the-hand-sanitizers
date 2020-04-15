@@ -214,6 +214,169 @@ footer {
   padding-bottom: 20px;
 }
 
+/* Career Page */
+.introPic {
+  height: 50%;
+  width: 50%;
+}
+
+.presPic {
+  height: 25%;
+  width: 25%;
+}
+
+.govPic {
+  height: 25%;
+  width: 25%;
+}
+
+.tvH1 {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-right: 5px solid black;
+  text-align: right;
+  padding-right: 5px;
+  border-left: none;
+  border-radius: 30px 0px 0px 30px;
+  color: black;
+  font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  height: 30px;
+  margin-top: 10px;
+  padding-left: 5px;
+  padding-top: 5px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  width: 260px;
+}
+
+.politicsH1 {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-right: 5px solid black;
+  text-align: right;
+  padding-right: 5px;
+  border-left: none;
+  border-radius: 30px 0px 0px 30px;
+  color: black;
+  font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  height: 30px;
+  margin-top: 10px;
+  padding-left: 5px;
+  padding-top: 5px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  width: 260px;
+}
+
+/* Intro Parent */
+.intro {
+  display: flex;
+  flex-basis: 1fr 1fr 2fr;
+  /* align-items: center; */
+}
+
+.intro > h1 {
+  align-self: start;
+  justify-self: stretch;
+}
+/* Tv Parent */
+.tv-film {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.tv-film > p {
+  align-items: center;
+}
+
+.tvPic {
+  order: 1;
+  height: 50%;
+  width: 50%;
+}
+
+/* Music Parent */
+.music {
+  display: flex;
+  /* align-items: center; */
+}
+
+.musicPic {
+  order: 5;
+  height: 50%;
+  width: 50%;
+}
+
+/* Politics Parent */
+.politics {
+  display: flex;
+  /* flex-basis: 1fr 1fr 2fr;
+  align-items: center; */
+}
+
+.politics > p {
+  order: 2;
+}
+
+.politicsH1 {
+  order: 5;
+}
+
+/* EXTRAS */
+
+.ksSection {
+  /* display: flex; */
+  padding: 10px 0px 10px 5px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.ksList {
+  padding: 5px;
+}
+
+.ksListOrganizations {
+  padding: 5px;
+  width: 120px;
+}
+
+ul .tourDates {
+  margin-left: 15px;
+  font-weight: normal;
+}
+
+ul #tourNames {
+  font-weight: bold;
+  font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
+}
+
+a > img {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ksList > li > a {
+  text-decoration: none;
+  color: black;
+  font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
+  /* text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; */
+}
+
+.ksList > li > a:hover {
+  color: white;
+}
+
+.ksList > li > a:visited {
+  color: white;
+}
+
+.ksList > li {
+  padding: 5px 0px 5px 0px;
+}
 /* summary css will have class="sum" somewhere in the class*/
 
 /* .sum-collaborators {
