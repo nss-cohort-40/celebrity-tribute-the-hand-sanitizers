@@ -198,6 +198,11 @@ ul {
   padding: 5px;
 }
 
+.ksListOrganizations {
+  padding: 5px;
+  width: 120px;
+}
+
 ul .tourDates {
   margin-left: 15px;
   font-weight: normal;
@@ -205,6 +210,7 @@ ul .tourDates {
 
 ul #tourNames {
   font-weight: bold;
+  font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
 }
 
 a > img {
@@ -212,10 +218,19 @@ a > img {
   height: 100px;
   display: flex;
   padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .ksList > li > a {
   text-decoration: none;
+  color: black;
+  font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
+  /* text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; */
+}
+
+.ksList > li > a:hover {
+  color: white;
 }
 
 .ksList > li {
