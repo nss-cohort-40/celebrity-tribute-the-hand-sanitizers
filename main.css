@@ -92,5 +92,14 @@ footer {
 section.ksSection {
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+}
+
+.ksList {
+  display: flex;
+  flex-direction: column;
 }
