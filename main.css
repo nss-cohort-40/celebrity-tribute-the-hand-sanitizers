@@ -86,3 +86,11 @@ footer {
   margin: 20px;
   background-color: whitesmoke;
 }
+
+/* adding style to index.html */
+
+section.ksSection {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
