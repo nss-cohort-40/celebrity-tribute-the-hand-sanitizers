@@ -3,13 +3,16 @@ header {
   align-items: center;
   justify-content: start;
   flex-direction: row;
-  background-color: whitesmoke;
+  background-image: url("https://img.pixers.pics/pho_wat(s3:700/FO/74/06/47/32/700_FO74064732_5f7fe45b974ff867897b571d5fcb85aa.jpg,525,700,cms:2018/10/5bd1b6b8d04b8_220x50-watermark.png,over,305,650,jpg)/stickers-polarization-pearl-sequins-shiny-glitter-background.jpg.jpg");
   padding: none;
   margin: none;
+  color: rgb(8, 8, 8);
+  font-size: larger;
+  font-family: fantasy;
 }
 
 .menuList {
-  background-color: rgba(59, 54, 54, 0.993);
+  background-image: url("https://ak3.picdn.net/shutterstock/videos/23467423/thumb/1.jpg");
   font-size: large;
   font-family: "Times New Roman", Times, serif;
   align-items: center;
@@ -42,7 +45,7 @@ header {
   color:yellow;
 } 
 .menuItem a:visited {
-  color: rgb(134, 145, 243);
+  color: rgb(46, 60, 189);
 }
  /* Newsfeed CSS */
 .column {
