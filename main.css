@@ -187,7 +187,7 @@ footer {
 
 .ksSection {
   /* display: flex; */
-  padding: 20px;
+  padding: 10px 0px 10px 5px;
 }
 
 ul {
@@ -195,7 +195,7 @@ ul {
 }
 
 .ksList {
-  padding: 10px;
+  padding: 5px;
 }
 
 ul .tourDates {
@@ -216,4 +216,8 @@ a > img {
 
 .ksList > li > a {
   text-decoration: none;
+}
+
+.ksList > li {
+  padding: 5px 0px 5px 0px;
 }
