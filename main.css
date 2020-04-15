@@ -3,11 +3,13 @@ header {
   align-items: center;
   justify-content: start;
   flex-direction: row;
-  background-color: lightgrey;
+  background-color: whitesmoke;
+  padding: none;
+  margin: none;
 }
 
 .menuList {
-  background-color: dimgrey;
+  background-color: rgba(59, 54, 54, 0.993);
   font-size: large;
   font-family: "Times New Roman", Times, serif;
   align-items: center;
@@ -18,24 +20,31 @@ header {
   list-style: none;
   padding: none;
   margin: 0em;
+  border: 2px solid black;
 }
 .menuItem {
-  color: ivory;
+  /* background-color:white;
+  color:black; */
+  justify-content: space-evenly;
+  font-weight: bold;
   padding: 10px;
+  /* border: 1px solid black; */
+  
 }
 .menuItem a:link {
-  color: white;
+  color: rgb(235, 226, 226);
+}
+.menuItem a:hover {
+  color: black;
+  background-color: whitesmoke;
 }
 .menuItem a:active {
-  color: yellow;
-}
+  color:yellow;
+} 
 .menuItem a:visited {
-  color: hotpink;
+  color: rgb(134, 145, 243);
 }
-.menuItem a:visited {
-  color: lawngreen;
-}
-/*Newsfeed CSS*/
+ /* Newsfeed CSS */
 .column {
   display: flex;
   flex-wrap: wrap;
@@ -46,13 +55,23 @@ header {
 /*Newsfeed CSS*/
 .column p {
   display: flex;
-  flex: 50% 50% 50%;
+  /* flex: 50% 50% 50%; */
   flex-wrap: wrap;
   justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  margin-left: 20em;
-  margin-right: 20em;
+  flex-direction: row;
+  text-align: justify;
+  margin-left: 12em;
+  margin-right: 12em;
+  font-size: larger;
+  background-color:whitesmoke;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.column h1{
+  font-size: x-large;
+  
 }
 
 /* Trying to get them columns in extras page */
@@ -67,3 +86,15 @@ header {
   flex-basis: 51%;
 }
 
+body{
+  background-color: darkgray;
+}
+footer{
+  border: 1px solid black;
+
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+  background-color: whitesmoke;
+
+}
