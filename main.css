@@ -1,13 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 header {
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: space-between;
   flex-direction: row;
-  background-color: lightgrey;
+  background-image: url('https://wallpapercave.com/wp/wp2120657.jpg');
+  background-size: contain;
+  padding-right: 20px;
+}
+
+header > h1 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 50px;
+  text-shadow: 2px 2px 5px black;
 }
 
 .menuList {
-  background-color: dimgrey;
+  background-color: lightgrey;
   font-size: large;
   font-family: "Times New Roman", Times, serif;
   align-items: center;
@@ -38,17 +52,147 @@ header {
   color: lawngreen;
 }
 
-/* .flex-container {
+/* .personal-flex-container {
   display: flex;
-  background-color: DodgerBlue;
+  background-color: black;
   flex-direction: row;
   flex-wrap: wrap;
-} */
+  
+}
 
-/* .flex-container > div {
-  background-color: #f1f1f1;
+.personal-flex-container > div {
+  background-color: orange;
   margin: 10px;
   padding: 20px;
-  font-size: 30px;
-  flex-basis: 45%;
+  flex-basis: 45.6%;
+  justify-content: center;
+  align-items: center;
+} */
+
+
+/* Evan Stuff */
+header > img {
+  width: 10%;
+}
+
+.er-partner-img {
+  height: 175px;
+  width: 175px;
+  align-content: space-between;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.personal-body {
+  background: black;
+}
+
+.menuList1 {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-transform: uppercase;
+  /* justify-content: none; */
+  list-style: none;
+  padding: none;
+  margin: 0em;
+}
+
+.menuItem {
+  color: black;
+  padding: 10px;
+  /* opacity:; */
+}
+.menuItem a:link {
+  color: white;
+  text-shadow: 2px 2px 5px black;
+
+}
+.menuItem a:active {
+  color: white;
+  text-shadow: 2px 2px 5px black;
+
+}
+.menuItem a:visited {
+  color: white;
+  text-shadow: 2px 2px 5px black;
+
+}
+.menuItem a:visited {
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+
+article {
+  background: orange;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+section {
+  margin: 5px;
+}
+
+section > h1 {
+  color: black;
+  text-shadow: 2px 2px 5px white;
+  font-size: 35px;
+  margin: 5px 5px;
+  padding: 5px;
+  text-decoration: underline;
+}
+
+section > p {
+  margin: 10px;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  font-size: 15px;
+  word-spacing: 5px;
+  color: white;
+  background-image: url('https://wallpapercave.com/wp/wp2120657.jpg');
+  background-size: contain;
+  padding-bottom: 20px;
+}
+
+.link {
+  background-color: black;
+  color: white;
+  padding: 5px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  border: 1px double white;
+}
+
+
+}
+
+/* section > h1 {
+  background: orange;
+  height: 25px; 
+  width: 25%;
+  border-color: black;
+  border-radius: 3px;
+  border-style: outset;
+  border-width: 3px;
+  text-align: center;
+} */
+
+/* .personal-flex-container { 
+  display: flex;
+  flex-direction: row ;
+  flex-wrap: wrap;
+} 
+
+.personal-flex-container > div {
+  margin: 10px;
+  padding: 20px;
+  flex-basis: 50%;
 } */
