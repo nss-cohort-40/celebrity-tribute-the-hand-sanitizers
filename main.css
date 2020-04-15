@@ -179,3 +179,34 @@ footer {
   background-size: contain;
   padding-bottom: 20px;
 }
+
+/* EXTRAS */
+
+.ksSection {
+  /* display: flex; */
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.ksList {
+  padding: 10px;
+}
+
+ul .tourDates {
+  margin-left: 15px;
+  font-weight: normal;
+}
+
+ul #tourNames {
+  font-weight: bold;
+}
+
+a > img {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  padding: 10px;
+}
