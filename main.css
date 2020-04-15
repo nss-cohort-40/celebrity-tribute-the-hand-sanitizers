@@ -2,8 +2,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-direction: row ;
-  background-image: url('https://wallpapercave.com/wp/wp2120657.jpg');
+  flex-direction: row;
+  background-image: url("https://wallpapercave.com/wp/wp2120657.jpg");
   background-size: contain;
   padding-right: 20px;
   height: 100px;
@@ -14,7 +14,7 @@ header > h1 {
   color: orange;
   font-size: 50px;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
 }
 
 .menuList {
@@ -33,7 +33,6 @@ header > h1 {
 .menuItem {
   color: black;
   padding: 10px;
-  /* opacity:; */
 }
 
 /* Unvisited Link */
@@ -48,7 +47,6 @@ header > h1 {
   color: white;
   text-shadow: 2px 2px 5px black;
   text-decoration: none;
-  
 }
 
 /* Mouse Over Link */
@@ -65,10 +63,6 @@ header > h1 {
   text-decoration: underline;
 }
 
-/* .menuList .menuItem {
-  color: orange;
-} */
-
 .active {
   text-decoration: underline;
 }
@@ -78,7 +72,7 @@ header > h1 {
 }
 
 article {
-  background: orange; 
+  background: orange;
 }
 
 section > h1 {
@@ -93,7 +87,8 @@ section > h1 {
   padding-left: 5px;
   padding-top: 5px;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-  width: 260px;
+  flex-wrap: nowrap;
+  flex-direction: row;
 }
 
 /* Newsfeed CSS */
@@ -130,11 +125,12 @@ body {
 article {
   background: orange;
   padding: 5px;
-  margin-top: 3px; 
+  margin-top: 3px;
 }
 
 section {
   margin: 5px;
+  flex-wrap: nowrap;
 }
 
 section > p {
@@ -166,15 +162,16 @@ section > p {
   margin-left: 12em;
   margin-right: 12em;
   font-size: larger;
-  background-color:whitesmoke;
+  background-color: whitesmoke;
   border: 1px solid black;
   border-radius: 5px;
   padding: 5px;
 }
 
-.column h1{
+.column h1 {
   font-size: x-large;
-  
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 /* Trying to get them columns in extras page */
@@ -195,7 +192,7 @@ footer {
   font-size: 15px;
   word-spacing: 5px;
   color: white;
-  background-image: url('https://wallpapercave.com/wp/wp2120657.jpg');
+  background-image: url("https://wallpapercave.com/wp/wp2120657.jpg");
   background-size: contain;
   padding-bottom: 20px;
 }
